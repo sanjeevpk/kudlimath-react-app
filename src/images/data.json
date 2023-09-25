@@ -1,0 +1,292 @@
+﻿{
+    "Sheet3": [
+        {
+            "ID  ": "1",
+            "AARADHANE  ": "Margashirsha Maasa, Krishna Paksha, Panchami",
+            "BRINDAVANA_PLACE  ": "Mallkhed",
+            "DETAILS  ": "Shri Shri 1008 Shri Akshobhya Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Akshobhya Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1350",
+            "PERIOD_TO  ": "1365"
+        },
+        {
+            "ID  ": "2",
+            "AARADHANE  ": "Chaitra Maasa, Shukla Paksha, Pratipada",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Thrailokya Bhushana Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Thrailokya Bhushana Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1365",
+            "PERIOD_TO  ": "1366"
+        },
+        {
+            "ID  ": "3",
+            "AARADHANE  ": "Vaishaka Maasa, Shukla Paksha, Tritiya",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Lokavanditha Teertha Sripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shree Lokavanditha Teertha Sripadangalavaru",
+            "PERIOD_FROM  ": "1366",
+            "PERIOD_TO  ": "1374"
+        },
+        {
+            "ID  ": "4",
+            "AARADHANE  ": "Jyeshta Maasa, Krishna Paksha, Amavasye",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shree Sulabha Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Sulabha Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1374",
+            "PERIOD_TO  ": "1376"
+        },
+        {
+            "ID  ": "5",
+            "AARADHANE  ": "Aashada Maasa, Krishna Paksha, Panchami",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupungava Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupungava Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1376",
+            "PERIOD_TO  ": "1385"
+        },
+        {
+            "ID  ": "6",
+            "AARADHANE  ": "Shravana Maasa, Shukla Paksha, Pournima",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghunatha Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghunatha Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1385",
+            "PERIOD_TO  ": "1395"
+        },
+        {
+            "ID  ": "7",
+            "AARADHANE  ": "Bhadrapada Maasa, Shukla Paksha, Pournima",
+            "BRINDAVANA_PLACE  ": "Ramasagar",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuvandya Teeertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuvandya Teeertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1395",
+            "PERIOD_TO  ": "1417"
+        },
+        {
+            "ID  ": "8",
+            "AARADHANE  ": "Aashwina Maasa, Shukla Paksha, Pratipada",
+            "BRINDAVANA_PLACE  ": "Hampi",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghunandana Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghunandana Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1417",
+            "PERIOD_TO  ": "1439"
+        },
+        {
+            "ID  ": "9",
+            "AARADHANE  ": "Vaishaka Maasa, Shukla Paksha, Dvadashi",
+            "BRINDAVANA_PLACE  ": "Hampi",
+            "DETAILS  ": "Shri Shri 1008 Shri Vidyanidhi Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Vidyanidhi Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1439",
+            "PERIOD_TO  ": "1451"
+        },
+        {
+            "ID  ": "10",
+            "AARADHANE  ": "Pushya Maasa, Krishna Paksha, Shashthi",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1451",
+            "PERIOD_TO  ": "1481"
+        },
+        {
+            "ID  ": "11",
+            "AARADHANE  ": "Maagha Maasa, Shukla Paksha, Dwitiya",
+            "BRINDAVANA_PLACE  ": "Maayagunde, Kangu",
+            "DETAILS  ": "Shri Shri 1008 Shri Narayana Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Narayana Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1481",
+            "PERIOD_TO  ": "1542"
+        },
+        {
+            "ID  ": "12",
+            "AARADHANE  ": "Aashwina Maasa, Shukla Paksha, Sapthami",
+            "BRINDAVANA_PLACE  ": "Unknown",
+            "DETAILS  ": "Shri Shri 1008 Shri Mukunda Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Mukunda Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1542",
+            "PERIOD_TO  ": "1562"
+        },
+        {
+            "ID  ": "13",
+            "AARADHANE  ": "Margashirsha Maasa, Shukla Paksha, Dashami",
+            "BRINDAVANA_PLACE  ": "Unknown",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1562",
+            "PERIOD_TO  ": "1572"
+        },
+        {
+            "ID  ": "14",
+            "AARADHANE  ": "Chaitra Maasa, Shukla Paksha, Sapthami",
+            "BRINDAVANA_PLACE  ": "Unknown",
+            "DETAILS  ": "Shri Shri 1008 Shri Ramachandra Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Ramachandra Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1572",
+            "PERIOD_TO  ": "1599"
+        },
+        {
+            "ID  ": "15",
+            "AARADHANE  ": "Shravana Maasa, Krishna Paksha, Ashthami",
+            "BRINDAVANA_PLACE  ": "Unknown",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuttama Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuttama Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1599",
+            "PERIOD_TO  ": "1622"
+        },
+        {
+            "ID  ": "16",
+            "AARADHANE  ": "Phalguna Maasa, Shukla Paksha, Pournima",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuraja Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuraja Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1622",
+            "PERIOD_TO  ": "1670"
+        },
+        {
+            "ID  ": "17",
+            "AARADHANE  ": "Jeshtha Maasa, Shukla Paksha, Dvadashi",
+            "BRINDAVANA_PLACE  ": "Unknown",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupathi Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1670",
+            "PERIOD_TO  ": "1727"
+        },
+        {
+            "ID  ": "18",
+            "AARADHANE  ": "Aashadha Maasa, Krishna Paksha, Tritiya",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Ramachandra Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Ramachandra Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1727",
+            "PERIOD_TO  ": "1772"
+        },
+        {
+            "ID  ": "19",
+            "AARADHANE  ": "Margashirsha Maasa, Krishna Paksha, Tritiya",
+            "BRINDAVANA_PLACE  ": "Naavuru Agrahara",
+            "DETAILS  ": "Shri Shri 1008 Shri Rama Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Rama Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1772",
+            "PERIOD_TO  ": "1832"
+        },
+        {
+            "ID  ": "20",
+            "AARADHANE  ": "Margashirsha Maasa, Krishna Paksha, Pratipada",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuvarya Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuvarya Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1832",
+            "PERIOD_TO  ": "1842"
+        },
+        {
+            "ID  ": "21",
+            "AARADHANE  ": "Vaishaka Maasa, Krishna Paksha, Chaouti",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuvallabha Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuvallabha Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1842",
+            "PERIOD_TO  ": "1856"
+        },
+        {
+            "ID  ": "22",
+            "AARADHANE  ": "Aashvina Maasa, Shukla Paksha, Tritiya",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupriya Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupriya Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1856",
+            "PERIOD_TO  ": "1890"
+        },
+        {
+            "ID  ": "23",
+            "AARADHANE  ": "Vaishakha Maasa, Krishna Paksha, Tritiya",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuvara Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuvara Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1890",
+            "PERIOD_TO  ": "1899"
+        },
+        {
+            "ID  ": "24",
+            "AARADHANE  ": "Bhadrapada Maasa, Krishna Paksha, Pratipada",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuthama Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuthama Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1899",
+            "PERIOD_TO  ": "1901"
+        },
+        {
+            "ID  ": "25",
+            "AARADHANE  ": "Pushya Maasa, Krishna Paksha, Chaturdhashi",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghushantha Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghushantha Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1901",
+            "PERIOD_TO  ": "1911"
+        },
+        {
+            "ID  ": "26",
+            "AARADHANE  ": "Jeshtha Maasa, Krishna Paksha, Shashti",
+            "BRINDAVANA_PLACE  ": "Malakhed",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghukantha Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghukantha Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1911",
+            "PERIOD_TO  ": "1923"
+        },
+        {
+            "ID  ": "27",
+            "AARADHANE  ": "Bhadrapada Maasa, Shukla Paksha, Sapthami",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghudaanth Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghudaanth Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1923",
+            "PERIOD_TO  ": "1943"
+        },
+        {
+            "ID  ": "28",
+            "AARADHANE  ": "Margashirsha Maasa, Shukla Paksha, Dvitiya",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuveera Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuveera Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1943",
+            "PERIOD_TO  ": "1962"
+        },
+        {
+            "ID  ": "29",
+            "AARADHANE  ": "Bhadrapada Maasa, Krishna Paksha, Dvadashi",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Ramadhyan Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Ramadhyan Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1962",
+            "PERIOD_TO  ": "1969"
+        },
+        {
+            "ID  ": "30",
+            "AARADHANE  ": "Pushya Maasa, Shukla Paksha, Shashthi",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupramathi Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupramathi Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1972",
+            "PERIOD_TO  ": "1982"
+        },
+        {
+            "ID  ": "31",
+            "AARADHANE  ": "Pushya Maasa, Shukla Paksha, Trayodashi",
+            "BRINDAVANA_PLACE  ": "Kudli",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghupriya Teertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghupriya Teertha Shripadangalavaru",
+            "PERIOD_FROM  ": "1982",
+            "PERIOD_TO  ": "2009"
+        },
+        {
+            "ID  ": "32",
+            "AARADHANE  ": "Present Peetadhipathigalu. Aashrama Sweekara on 07/04/2003 Chaitra Maasa Shukla Paksha Panchami",
+            "BRINDAVANA_PLACE  ": "Present Peetadhipathigalu",
+            "DETAILS  ": "Shri Shri 1008 Shri Raghuvijayateertha Shripadangalavaru",
+            "PEETADHIPATI  ": "Shri Shri 1008 Shri Raghuvijayateertha Shripadangalavaru",
+            "PERIOD_FROM  ": "2009",
+            "PERIOD_TO  ": "Present"
+        }
+    ]
+}
