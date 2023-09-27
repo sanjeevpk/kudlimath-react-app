@@ -127,21 +127,21 @@ function Origin(){
                             </CardText>
                             <strong>Shree Madhvacharyaru</strong>
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Madhvacharyaru"
                                 src={MadhvacharyaruPhoto}
                                 style={{height:'auto', width:'auto'}}
                             /> 
                             <br/><br/>
                             <strong>Shree Akshobhya Teertharu</strong>
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Akshobhya Teertharu"
                                 src={AkshobhyaTeertharuPhoto}
                                 style={{height:'auto', width:'auto'}}
                             /> 
                             <br/><br/>
                             <strong>Akshobhya Tirtha Vijaya stambha</strong>
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Akshobhya Tirtha Vijaya stambha"
                                 src={VijayastambhaPhoto}
                                 style={{height:'auto', width:'250px'}}
                             /> 

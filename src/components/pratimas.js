@@ -44,7 +44,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Moola Vaikunth Raamchandra Devaru"
                                 src={PratimaMoolaVaikuntaRamadevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -63,7 +63,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Vaikunta Seeta Devi"
                                 src={PratimaMoolaSeetaDevi}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -82,7 +82,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Datta Laxmana Devaru"
                                 src={PratimaMoolaDattaLakshmanadevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -101,7 +101,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Vijaya Vitthala Devaru"
                                 src={PratimaVijayaVittaladevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -120,7 +120,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Jayaram Devaru"
                                 src={PratimaJayaramdevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -139,7 +139,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Venugopal Devaru"
                                 src={PratimaVenugopaldevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -158,7 +158,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Bhoovarah Devaru"
                                 src={PratimaBhoovarahadevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -177,7 +177,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Vedavyasa Devaru"
                                 src={PratimaVedavyasadevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          
@@ -196,7 +196,7 @@ function Pratimas(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Lakshmi Narasimha Devaru"
                                 src={PratimaLakshiNarasimhadevaru}
                                 style={{height:'auto', width:'350px'}}
                             />          

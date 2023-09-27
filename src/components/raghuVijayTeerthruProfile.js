@@ -37,10 +37,13 @@ function RaghuVijayTeerthruProfile(){
                         <CardBody className="my-2" color="warning">           
                             <CardText style={{paddingTop:5}}>
                                 <p>
-                                    Shree Shree 1008 Raghuvijaya Theertharu, in his poorvashrama was known as Shree Ananthaacharya Gudi. 
-                                    He was the fifth son of Shree Ramacharya Gudi and Smt. Rangu Bai of Haveri. 
-                                    Having completed his B.E.(Specialization in Electrical Branch), further continued his studies and did his M.B.A. 
-                                    He worked in various private organizations in the managerial capacity for about 16 years.
+                                    His Holiness Shree Shree 1008 Raghuvijaya Theertharu, formerly recognized as 
+                                    Shree Ananthaacharya Gudi, was the esteemed fifth progeny of Shree Ramacharya Gudi 
+                                    and Smt. Rangu Bai, hailing from Haveri. After pursuing a Bachelor of Engineering 
+                                    with a specialization in the electrical domain, he further augmented his academic 
+                                    credentials by obtaining a Master of Business Administration degree. Subsequently, 
+                                    for a duration of 16 years, he held various integral managerial roles in diverse 
+                                    and distinguished private organizations.
                                 </p>
                                 <p>
                                     Shree Ananthaacharyaru was deeply influenced by Shree Raghupriya Theertharu. 
@@ -50,7 +53,7 @@ function RaghuVijayTeerthruProfile(){
                                 </p>
                                 <p>
                                     In the year 2003, Shree Ananthaacharya Gudi responded to the summons of his Guru Shree Raghupriya Theertharu 
-                                    and was given the sanyaasashrama to become his successor.He was named Shree Raghuvijaya Theertha Swamiji. 
+                                    and was given the sanyaasashrama to become his successor.He was named as <strong>Shree Raghuvijaya Theertha Swamiji.</strong> 
                                     Right from the day of his sanyaashrama till the last day of his gurugalu, 
                                     he never parted the company of Shree Raghupriya Theertha Swamiji and thus followed him 
                                     like a shadow.
@@ -89,7 +92,7 @@ function RaghuVijayTeerthruProfile(){
                             </CardText>
                             <strong>Shree Raghu Vijaya Teertha Swamiji</strong>
                             <img className='rounded'
-                                alt="Card cap"
+                                alt="Shree Raghu Vijaya Teertha Swamiji"
                                 src={ProfilePhoto1}
                                 style={{height:'500px', width:'auto'}}
                             /> 

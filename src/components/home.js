@@ -35,7 +35,7 @@ function Home(){
                             WELCOME TO SHREE KUDLI AARYA AKSHOBHYA TEERTH MATH
                         </CardTitle>
                         <img className='rounded'
-                            alt="Card cap"
+                            alt="Origin"
                             src={HomeOrigin}
                             style={{height:'400px', width:'auto'}}
                         />
@@ -57,7 +57,7 @@ function Home(){
                             SHREE 1008 SHREE RAGHUVIJAYA TIRTHA SWAMIJI - A PROFILE
                         </CardTitle>
                         <img className='rounded'
-                            alt="Card cap"
+                            alt="Shree 1008 Raghu Vijaya Teertharu"
                             src={ProfilePhoto}
                             style={{height:'400px', width:'auto', paddingTop:5}}
                         />

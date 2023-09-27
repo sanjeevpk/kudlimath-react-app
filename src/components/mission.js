@@ -39,12 +39,18 @@ function Mission(){
                                 Shree Kudli Aarya Akshobhya Teerth Math, abides by this dictum in all circumstances. 
                             </p>
                             <p>
-                                Our chief mission is to practice, protect, preach and propagate the ancient sanatana 
-                                vedic dharma through the lences of Madhva philosophy. Shree Kudli Aarya Akshobhya Teerth Math 
-                                enriches the practice and knowledge of Madhva Siddanta and Dvaita philosophy, 
-                                widens public access to it, and strengthens it's capacities in the day to day life of Madhvas, 
-                                by innovative patha, pravachana's, commissioning research and creating public platforms using 
-                                the framework of Vedic Knowledge.
+                                Shree Kudli Aarya Akshobhya Teerth Math is dedicated to preserving and 
+                                promoting the ancient Sanatana Vedic Dharma through the lens of 
+                                Madhva philosophy. Our chief mission comprises four key aspects: practice, 
+                                protect, preach, and propagate this valuable knowledge. 
+                            </p>
+                            <p>
+                                To achieve this, we focus on enriching the understanding and practice of 
+                                Madhva Siddanta and Dvaita philosophy. We strive to make these teachings 
+                                more accessible to the public while enhancing their practical application 
+                                in the daily lives of Madhvas. Our approach includes innovative patha 
+                                and pravachanas, sponsoring research initiatives, and creating public 
+                                platforms that utilize Vedic Knowledge as a foundation.
                             </p>
                             <p>
                                 Since the time of its origin, till to date, Shree Kudli Aarya Akshobhya Teerth Math, 

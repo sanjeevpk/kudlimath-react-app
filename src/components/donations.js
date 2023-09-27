@@ -13,7 +13,8 @@ import {
     Col, 
     CardHeader,
     ListGroup,
-    ListGroupItem
+    ListGroupItem,
+    List
 } from 'reactstrap';
 import PeopleIcon from '@mui/icons-material/People';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
@@ -51,16 +52,29 @@ function Donations(){
                         </CardHeader>
                         <CardBody className="my-2" color="warning">           
                             <CardText style={{paddingTop:5}}>
-                            <h4>Shree Aarya Akshobhya Trust</h4>
+                            <h4>Shree Aarya Akshobhya Teertha Trust</h4>
                             <p>
-                                This is the donation page of Shree Aarya Akshobhya Trust. Donations made through 
-                                this page are utilized purely towards various activities of trust as required.
-                                Shree Aarya Akshobhya Trust is headed by Shree Raghu Vijaya Teerth swamiji with the 
-                                objective for helping poor students with finacial aid for fees, books and other 
-                                academic instruments. Also to support for marriages of girls belongs to poor family.
+                                This is the donation page of Shree Aarya Akshobhya Teertha Trust. Donations made through 
+                                this page are utilized purely towards various activities of trust as mentioned below.
+                                Shree Aarya Akshobhya Teerth Trust is headed by Shree Raghu Vijaya Teerth swamiji with the 
+                                below objectives
                             </p>
                             <p>
-                                To support for the above noble causes, please donate to Shree Aarya Akshobhya Trust 
+                                <List>
+                                    <li>
+                                        Supporting underprivileged students by offering financial aid for tuition fees, textbooks, and other educational resources
+                                    </li>
+                                    <li>
+                                        Empower underprivileged girls with the gift of love and stability through supporting their marriages
+                                    </li>
+                                    <li>
+                                        Lending a helping hand to the less fortunate by providing essential resources for their basic needs.
+                                    </li>
+                                </List>
+                                 
+                            </p>
+                            <p>
+                                To support for the above noble causes, please donate to Shree Aarya Akshobhya Teerth Trust 
                                 by clicking the Donate button!
                             </p>
                             </CardText>

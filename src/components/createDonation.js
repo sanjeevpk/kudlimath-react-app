@@ -9,6 +9,8 @@ import axios from 'axios';
 import { SERVER_DOMAIN } from "../scripts/constants";
 import { DonatePageContext } from "../context/donatePageContext";
 import {useNavigate} from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const CreateDonation = () => {
@@ -58,6 +60,8 @@ const CreateDonation = () => {
           });
     }
 
+    const notify = () => toast("Wow so easy !");
+    
     const handleSubmit = async(e) => {
         // store the states in the form data
         // const donationFormData = new FormData();
@@ -66,7 +70,7 @@ const CreateDonation = () => {
         // donationFormData.append("mobile", formValue.mobile)
         // donationFormData.append("amount", formValue.amount)
         e.preventDefault();
-      
+        
 
         const donation = {
             name: formValue.name,
@@ -79,6 +83,16 @@ const CreateDonation = () => {
       
         try {
           // make axios post request
+          toast.info("Initializing payment, please do not click back button!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: true,
+            theme: "dark",
+          });
           const response = await axios({
             method: "post",
             url: "/api/v1/donation",
@@ -87,6 +101,18 @@ const CreateDonation = () => {
           }).then(res=>{
                 console.log(res);
                 console.log(res.data);
+                setTimeout(() => {
+                    toast.success("Successfuly initiated donation", {
+                      position: "top-right",
+                      autoClose: 5000,
+                      hideProgressBar: true,
+                      closeOnClick: false,
+                      pauseOnHover: true,
+                      draggable: true,
+                      progress: undefined,
+                      theme: "light",
+                    });
+                  }, 1);
                 navigate("/checkout", {state : {
                     name: res.data.name,
                     email: res.data.email, 
@@ -100,6 +126,16 @@ const CreateDonation = () => {
             })
         } catch(error) {
           console.log(error);
+          toast.error("Something went wrong, please try again!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: true,
+            theme: "dark",
+          });
         
         }
       }
@@ -107,6 +143,18 @@ const CreateDonation = () => {
 
     return (
         <div>
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss={false}
+                draggable
+                pauseOnHover
+                theme="light"
+            />
             <Navigation/>
             <Heading/>
             <hr/>
@@ -121,7 +169,7 @@ const CreateDonation = () => {
                     > 
                         <CardHeader style={{fontWeight:'bold'}}>
                             <CardGiftcardIcon style={{textAlign:'left'}}/>
-                            <span style={{textAlign:'center'}}> Shree Aarya Akshobhya Trust</span>
+                            <span style={{textAlign:'center'}}> Shree Aarya Akshobhya Teertha Trust</span>
                         </CardHeader>
                         <CardBody className="my-2" color="warning">                  
                             <Form onSubmit={handleSubmit}>
