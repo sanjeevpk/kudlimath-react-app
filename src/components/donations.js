@@ -48,7 +48,7 @@ function Donations(){
                     > 
                         <CardHeader style={{fontWeight:'bold'}}>
                             <MenuBookIcon style={{textAlign:'left'}}/>
-                            <span style={{textAlign:'center'}}> Seva Towards society</span>
+                            <span style={{textAlign:'center'}}> Seva Towards Society</span>
                         </CardHeader>
                         <CardBody className="my-2" color="warning">           
                             <CardText style={{paddingTop:5}}>
@@ -74,6 +74,8 @@ function Donations(){
                                  
                             </p>
                             <p>
+                                We invite you to be a part of this devine cause by contributing generously, 
+                                your wholehearted support will help us scale this to greater heights and make it a huge success. 
                                 To support for the above noble causes, please donate to Shree Aarya Akshobhya Teerth Trust 
                                 by clicking the Donate button!
                             </p>

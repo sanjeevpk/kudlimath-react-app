@@ -45,6 +45,7 @@ const CreateDonation = () => {
     // }
 
     const [donation, setDonation] = useState({}); 
+    const [error, setError] = useState("");
     
     const [formValue, setformValue] = React.useState({
         name: '',
@@ -69,8 +70,7 @@ const CreateDonation = () => {
         // donationFormData.append("email", formValue.email)
         // donationFormData.append("mobile", formValue.mobile)
         // donationFormData.append("amount", formValue.amount)
-        e.preventDefault();
-        
+        e.preventDefault();    
 
         const donation = {
             name: formValue.name,
@@ -79,7 +79,22 @@ const CreateDonation = () => {
             amount: formValue.amount
         };
 
-        console.log("donation = "+donation);
+        console.log("donation = "+donation.email);
+
+        if (!donation.mobile.match(/^(\d{10})$/)) {
+            setError('Please enter a valid mobile number.');
+            return;
+        }
+
+        if (!/\S+@\S+\.\S+/.test(donation.email)) {
+            setError("Invalid email address");
+            return;
+        }
+
+        if (isNaN(donation.amount)) {
+            setError('Please enter a valid amount.');
+            return;
+        }
       
         try {
           // make axios post request
@@ -105,11 +120,11 @@ const CreateDonation = () => {
                     toast.success("Successfuly initiated donation", {
                       position: "top-right",
                       autoClose: 5000,
-                      hideProgressBar: true,
-                      closeOnClick: false,
+                      hideProgressBar: false,
+                      closeOnClick: true,
                       pauseOnHover: true,
                       draggable: true,
-                      progress: undefined,
+                      progress: true,
                       theme: "light",
                     });
                   }, 1);
@@ -145,10 +160,10 @@ const CreateDonation = () => {
         <div>
             <ToastContainer
                 position="top-right"
-                autoClose={5000}
-                hideProgressBar
+                autoClose={3000}
+                hideProgressBar={false}
                 newestOnTop={false}
-                closeOnClick={false}
+                closeOnClick={true}
                 rtl={false}
                 pauseOnFocusLoss={false}
                 draggable
@@ -174,6 +189,7 @@ const CreateDonation = () => {
                         <CardBody className="my-2" color="warning">                  
                             <Form onSubmit={handleSubmit}>
                                 <FormGroup>
+                                    {error && <p>{error}</p>}
                                     <Label>Name *</Label>
                                     <Input 
                                         id="name"
@@ -232,6 +248,30 @@ const CreateDonation = () => {
                                     />
                                     <Button type="submit" className="btn btn-success" style={{marginRight:'5px',marginTop:'10px', paddingTop:'5px'}}>Donate</Button>
                                     <Button type="reset" className="btn btn-warning" style={{marginRight:'5px',marginTop:'10px', paddingTop:'5px'}} onClick={()=>setformValue({})}>Reset</Button>
+                                    <br></br>
+                                    <Label style={{marginTop:'10px', paddingTop:'5px'}}></Label>
+                                    <ul>
+                                        <li>
+                                            <small>
+                                                Donations once made are final and are nonrefundable or noncancellable for any reason
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <small>
+                                                Under no circumstances the payment made successfully towards donation will be returned
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <small>
+                                                Transaction fees if applicable would be borne by cardholder for any payment
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <small>
+                                                Transaction fee charges would not be refunded/reversed under any circumstances for any refund/reversal/chargeback and any other reasons (If applicable).
+                                            </small>
+                                        </li>
+                                    </ul>
                                 </FormGroup>
                             </Form>
                         </CardBody>

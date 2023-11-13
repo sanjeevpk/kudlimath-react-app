@@ -23,6 +23,7 @@ function Footer(){
     return(
         <div className="" style={{textAlign:'center', background:'#f40000'}} id="footer">
             <h3>Shree Kudli Aarya Akshobhya Teerth Matha</h3>
+            <a href='#privacy-policy'><h8>Privacy Policy</h8></a> | <a href='#terms-condtions'><h8>Terms And Conditions</h8></a>
             <p>Get in touch with us via below social links</p>
             <div className="social-links">
                 {footerContents && footerContents.map((item, index) => (

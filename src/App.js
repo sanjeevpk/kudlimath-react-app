@@ -20,6 +20,9 @@ import PageNotFound from './components/pageNotFound';
 import CreateDonation from './components/createDonation';
 import CheckoutDonation from './components/checkOutDonation';
 import DonationResponse from './components/donationResponse';
+import CreateNews from './components/admin/createNews';
+import PrivacyPolicy from './components/privacyPolicy';
+import TermsAndConditions from './components/termsAndConditions';
 
 function App(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,6 +48,9 @@ function App(args) {
           <Route path="/create-donation" Component={CreateDonation} excact></Route>
           <Route path="/checkout" Component={CheckoutDonation} excact></Route>
           <Route path="/donation-response" Component={DonationResponse}></Route>
+          <Route path="/privacy-policy" Component={PrivacyPolicy}></Route>
+          <Route path="/terms-condtions" Component={TermsAndConditions}></Route>
+          <Route path="/admin/create-news" Component={CreateNews} exact></Route>
           <Route path="*" Component={PageNotFound} excact></Route>
           
         </Routes>
