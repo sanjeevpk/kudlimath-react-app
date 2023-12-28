@@ -189,7 +189,7 @@ const CreateDonation = () => {
                         <CardBody className="my-2" color="warning">                  
                             <Form onSubmit={handleSubmit}>
                                 <FormGroup>
-                                    {error && <p>{error}</p>}
+                                    {error && <p style={{color: 'red'}}>{error}</p>}
                                     <Label>Name *</Label>
                                     <Input 
                                         id="name"

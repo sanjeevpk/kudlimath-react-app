@@ -63,8 +63,8 @@ function CheckoutDonation(){
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title using Helmet</title>
-                <script type="text/javascript" src="https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js" />
-                {/* <script type="text/javascript" src="https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js"/> */}
+                {/*<script type="text/javascript" src="https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js" />*/}
+                <script type="text/javascript" src="https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js"/> 
             </Helmet>
             <Navigation/>
             <Heading/>

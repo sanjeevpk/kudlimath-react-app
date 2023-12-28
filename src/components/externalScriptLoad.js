@@ -15,7 +15,7 @@ function External() {
       externalScript.setAttribute("crossorigin", "anonymous");
       
       document.body.appendChild(externalScript);
-      externalScript.src = `https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js`;
+      externalScript.src = `https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js`;
     };
     LoadExternalScript();
   }, []);
