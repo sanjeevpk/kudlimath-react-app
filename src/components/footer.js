@@ -8,6 +8,7 @@ import { useRef } from 'react';
 function Footer(){
 
     const buttonRef = useRef();
+    let currentYear = new Date().getFullYear();
 
     const footerContents = [{'title':'Twitter', 'icon':<TwitterIcon className='footer_icon_styles'/>, 'url':'https://twitter.com/kudalimath'},
                             {'title':'Facebook', 'icon':<FacebookIcon className='footer_icon_styles'/>, 'url':'https://www.facebook.com/sriraghuvijayateertharu'},
@@ -31,7 +32,7 @@ function Footer(){
                 ))}
             </div>
             <div className="copyright">
-                &copy; Copyright <strong><span>Shree Kudli Aarya Akshobhya Teerth Matha</span></strong>. All Rights Reserved
+                &copy; Copyright <span> {currentYear} <strong>Shree Kudli Aarya Akshobhya Teerth Matha</strong></span>. All Rights Reserved
             </div>
         </div>
     )

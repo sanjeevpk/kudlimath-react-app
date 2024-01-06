@@ -135,12 +135,14 @@ const CreateDonation = () => {
                     amount: res.data.amount,
                     atomTokenId: res.data.atomTokenId,
                     merchantId: res.data.merchantId,
+                    merchantTnxId: res.data.merchantTnxId,
                     returnUrl: res.data.returnUrl
                     
                 }}) 
             })
         } catch(error) {
           console.log(error);
+          setError("");
           toast.error("Something went wrong, please try again!", {
             position: "top-center",
             autoClose: 5000,

@@ -42,6 +42,7 @@ function CheckoutDonation(){
     function openPay(){
         console.log("clicked on pay! atomTokenId = "+location.state.atomTokenId);
         console.log("clicked on pay! returnUrl = "+location.state.returnUrl);
+        console.log("clicked on pay! returnUrl = "+location.state.merchantTnxId);
         const options = {
             "atomTokenId": location.state.atomTokenId,
             "merchId": location.state.merchantId,
@@ -62,7 +63,7 @@ function CheckoutDonation(){
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>My Title using Helmet</title>
+                <title>Shree Kudli Aarya Akshobhya Teerth Math</title>
                 {/*<script type="text/javascript" src="https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js" />*/}
                 <script type="text/javascript" src="https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js"/> 
             </Helmet>
@@ -80,7 +81,7 @@ function CheckoutDonation(){
                     > 
                         <CardHeader style={{fontWeight:'bold'}}>
                             <CardGiftcardIcon style={{textAlign:'left'}}/>
-                            <span style={{textAlign:'center'}}> Shree Aarya Akshobhya Trust</span>
+                            <span style={{textAlign:'center'}}> Shree Aarya Akshobhya Teertha Trust</span>
                         </CardHeader>
                         <CardBody className="my-2" color="warning">                  
                             <Form>
@@ -176,7 +177,22 @@ function CheckoutDonation(){
                                         //     setDonation({...donation, amount: e.target.value})
                                         // }}
                                     />
-                                    <Button type="button" onClick={openPay} className="btn btn-success" style={{marginRight:'5px',marginTop:'5px'}}>Donate</Button>
+                                    <Label>Merchant Tnx Id</Label>
+                                    <Input 
+                                        id="merchantTnxId"
+                                        type="text" 
+                                        readOnly
+                                        placeholder="Enter merchantTnxId"
+                                        disabled
+                                        name="merchantTnxId" 
+                                        className="form-control" 
+                                        value={location.state.merchantTnxId}
+                                        onChange={handleChange}
+                                        // onChange={(e) => {
+                                        //     setDonation({...donation, amount: e.target.value})
+                                        // }}
+                                    />
+                                    <Button type="button" onClick={openPay} className="btn btn-success" style={{marginRight:'5px',marginTop:'5px'}}>Checkout</Button>
                                 </FormGroup>
                             </Form>
                         </CardBody>
