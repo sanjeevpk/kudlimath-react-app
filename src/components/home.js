@@ -53,7 +53,7 @@ function Home(){
                             style={{height:'400px', width:'auto'}}
                         />
                         <CardText style={{paddingTop:5}}>
-                            Shree Kudali Aarya Akshobhya Teerth Math was established by His Holiness Shree Akshobhya Thirtha Swamiji around the 13th or 14th Century. 
+                            Shree Kudli Aarya Akshobhya Teerth Math was established by His Holiness Shree Akshobhya Thirtha Swamiji around the 13th or 14th Century. 
                             Shree Akshobhya Teertha Swamiji is one of the famous saints who took sanyasa directly from Shree Madhvacharyaru. 
                             And also he was the last of Madhvacharya's direct disciples to sit on the Vedanta Pitha. 
                             The Math has a rich tradition and is famed for its knowledge of Sanskrit and Madhvacharya's philosophy. 

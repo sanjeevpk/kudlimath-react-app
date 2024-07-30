@@ -46,44 +46,44 @@ function TermsAndConditions(){
                         </CardHeader>
                         <CardBody>
                             <p>
-                                Thank you for visiting www.kudlimath.in, a website of Shree Kudali Aarya Akshobhya Teerth Math. 
+                                Thank you for visiting www.kudlimath.in, a website of Shree Kudli Aarya Akshobhya Teerth Math. 
                                 By viewing this website (the “Site”), you are agreeing to the terms and conditions 
                                 specified in this disclaimer and the copyright notice and privacy policy, which are set 
-                                out below (the “Terms and Conditions”). The Shree Kudali Aarya Akshobhya Teerth Math, 
+                                out below (the “Terms and Conditions”). The Shree Kudli Aarya Akshobhya Teerth Math, 
                                 may update the Terms and Conditions at any time without notice to you. 
                                 Please review the Terms and Conditions from time to time, as your continued use of the 
                                 Site means you accept any changes. Upon acceptance of the Terms and Conditions, permission 
                                 is granted for you to view, copy, print or download material on this site. You may not modify, 
                                 license, transfer or sell any information obtained from this website. Any use of information 
-                                from this website must credit Shree Kudali Aarya Akshobhya Teerth Math.
+                                from this website must credit Shree Kudli Aarya Akshobhya Teerth Math.
                             </p>
                             <p>
                                 www.kudlimath.in website is for informational purposes only and its content is subject to 
                                 change without notice. The inclusion of information regarding a product or service on 
-                                this website does not imply endorsement of it by Shree Kudali Aarya Akshobhya Teerth Math. 
+                                this website does not imply endorsement of it by Shree Kudli Aarya Akshobhya Teerth Math. 
                                 Links to websites are provided solely for the convenience of users. The Linked Sites are 
-                                not under the control of Shree Kudali Aarya Akshobhya Teerth Math and the 
-                                Shree Kudali Aarya Akshobhya Teerth Math is not responsible for the contents of any 
+                                not under the control of Shree Kudli Aarya Akshobhya Teerth Math and the 
+                                Shree Kudli Aarya Akshobhya Teerth Math is not responsible for the contents of any 
                                 Linked Site including, without limitation, any link contained in a Linked Site or any 
-                                changes or updates to a Linked Site. The Shree Kudali Aarya Akshobhya Teerth Math does not 
+                                changes or updates to a Linked Site. The Shree Kudli Aarya Akshobhya Teerth Math does not 
                                 offer any guarantee in that regard and is not responsible for the information found 
                                 through these links, nor does it endorse the sites and their contents. In no event shall 
-                                Shree Kudali Aarya Akshobhya Teerth Math, its members and suppliers be liable for any 
+                                Shree Kudli Aarya Akshobhya Teerth Math, its members and suppliers be liable for any 
                                 direct, indirect, punitive, incidental, special, consequential damages or any damages 
                                 whatsoever including, without limitation, damages for loss of use, data or profits, 
                                 arising out of or in any way connected with the use or delay or inability to use its web 
                                 site or Linked Sites, the provision of or failure to provide services, or for any 
                                 information, products or services obtained through the site or Linked Sites or otherwise 
                                 arising out of the use of the site or Linked Sites whether based on contract, tort, 
-                                negligence, strict liability or otherwise, even if the Shree Kudali Aarya Akshobhya Teerth Math, 
+                                negligence, strict liability or otherwise, even if the Shree Kudli Aarya Akshobhya Teerth Math, 
                                 its members and suppliers have been advised of the possibility of damages.
                             </p>
                             <p>
                                 If you are dissatisfied with any portion of the site or with any of these terms and 
                                 conditions, your sole and exclusive remedy is to discontinue using the site. 
-                                While Shree Kudali Aarya Akshobhya Teerth Math follows specific procedures to ensure 
+                                While Shree Kudli Aarya Akshobhya Teerth Math follows specific procedures to ensure 
                                 the accuracy and reliability of its website content, your use of it is at your sole risk. 
-                                Shree Kudali Aarya Akshobhya Teerth Math does not assume any liability deemed to have 
+                                Shree Kudli Aarya Akshobhya Teerth Math does not assume any liability deemed to have 
                                 been caused directly or indirectly by any content or use of a tool on its website. 
                                 You agree to abide by these Terms and Conditions, and also to comply with all local rules, 
                                 regulations and laws regarding online conduct and acceptable content.
@@ -138,7 +138,7 @@ function TermsAndConditions(){
                                     Near Tunga-Bhadra Sangama,
                                 </ListGroupItem>    
                                 <ListGroupItem>
-                                    Kudali, Karanataka - 577 227
+                                    Kudli, Karanataka - 577 227
                                 </ListGroupItem>    
                                 <ListGroupItem>
                                     Contact Person : Vadiraj Achar Huilgol

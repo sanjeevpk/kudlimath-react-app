@@ -75,7 +75,7 @@ function PrivacyPolicy(){
                                     Near Tunga-Bhadra Sangama,
                                 </ListGroupItem>    
                                 <ListGroupItem>
-                                    Kudali, Karanataka - 577 227
+                                    Kudli, Karanataka - 577 227
                                 </ListGroupItem>    
                                 <ListGroupItem>
                                     Contact Person : Vadiraj Achar Huilgol

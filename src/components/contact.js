@@ -39,11 +39,11 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Near Tunga-Bhadra Sangama,<br/>
-                                Kudali, Karanataka - 577 227
+                                Kudli, Karanataka - 577 227
                             </p>
                             <p>
                                 <WifiCalling3Icon style={{textAlign:'left'}} />
@@ -62,7 +62,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Dodd Brahmin Keri St, Gandhi Bazar,<br/>
@@ -85,7 +85,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Raghavendra Colony, Kammagondanahalli Jalahalli West,
@@ -108,7 +108,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Pattabhhirama Devastana, Hanumanth Nagar,<br/>
@@ -131,7 +131,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Ganesh Nagar, Hunnur,<br/>
@@ -154,7 +154,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Arjun Vihaar, Gokul Road,<br/>
@@ -177,7 +177,7 @@ function Contact(){
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <CardText style={{paddingTop:5}}>
-                                <h5>Shree Kudali Aarya Akshobhya Teerth Math</h5>
+                                <h5>Shree Kudli Aarya Akshobhya Teerth Math</h5>
                             <p>
                                 <PlaceIcon style={{textAlign:'left'}}/>
                                 Gudi Oni, Kondawad Galli,<br/>
