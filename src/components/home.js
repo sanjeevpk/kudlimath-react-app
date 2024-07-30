@@ -6,6 +6,10 @@ import Footer from './footer';
 import ProfilePhoto from '../images/profile.png';
 import HomeOrigin from '../images/home_origin.png';
 import {useNavigate} from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Margin } from '@mui/icons-material';
+import { colors } from '@mui/material';
 
 function Home(){
 
@@ -18,14 +22,23 @@ function Home(){
     const navigateToProfile = () => {
         navigate('/raghu-vijay-teertharu');
     }
-
-
+    
 
     return (
         <div>
             <Navigation/>
             <Heading/>
             <hr></hr>
+            <Row>
+                <Col sm="1"></Col>
+                <Col sm="10">
+                    <marquee direction="left" height="50px" style={{color:'#fe6032'}}>
+                        <a href='#/chaturmasya'>22nd Chaturmasya of Shree Shree 1008 Shree RaghuVijaya Teertha Swamiji 
+                            at Ranebennuru from 30th July to 18th Sep 2024
+                        </a>
+                    </marquee>
+                </Col>
+            </Row>
             <Row>
                 <Col sm="1"></Col>
                 <Col sm="5">

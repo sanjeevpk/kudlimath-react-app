@@ -18,6 +18,7 @@ import {
 import HeadingLogo from '../images/heading_logo.png';
 import { Link } from 'react-router-dom';
 import Mission from './mission';
+import Chaturmasya from './chaturmasa';
 import Home from './home';
 import KnowledgeCenter from './knowledgeCenter';
 import News from './news';
@@ -87,6 +88,11 @@ function Navigation(args){
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              <NavItem>
+                <Link className='list-group-item list-group-item-action' tag="a" to="/chaturmasya" action={Mission}>
+                  Chaturmasya
+                </Link>
+              </NavItem>
               <NavItem>
                 <Link className='list-group-item list-group-item-action' tag="a" to="/contributions" action={Mission}>
                   Social Contributions
