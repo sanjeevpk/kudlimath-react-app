@@ -19,6 +19,12 @@ import PetsIcon from '@mui/icons-material/Pets';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
 import HomeOrigin from '../images/home_origin.png';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
+import ChaturmasyaEvent1 from '../images/chaturmasa/page1.png';
+import ChaturmasyaEvent2 from '../images/chaturmasa/page2.png';
+import ChaturmasyaEvent3 from '../images/chaturmasa/page3.png';
+import ChaturmasyaEvent4 from '../images/chaturmasa/page4.png';
+import ChaturmasyaEvent5 from '../images/chaturmasa/chaturmasa-2024-event-spritual-discussion.jpg';
+import ChaturmasyaEvent6 from '../images/chaturmasa/chaturmasa-2024-event-sandyavandana.jpg';
 
 function News(){
     return (
@@ -32,18 +38,15 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Arogya Vijaya</span>
+                                <span style={{textAlign:'center'}}> Chaturmasya @ Ranebennuru</span>
                             </CardHeader> 
-                        <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid0wnuqtZiYo6oDVYBmwiHMTPhTwb6J2agwhnQA6U8YgC2x73FhLfMD547LAan5sW51l&show_text=false&width=500" 
-                            width="350px" height="200px" style={{border:0,overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>          
-                            
-                            <CardText style={{paddingTop:5}}>
-                            
-                                On the occasion of 21st Charturmasa, we are conducting free health checkup camps,
-                                we encourage followers to make use of such benefits.
-                                
-                            </CardText>
+                        <CardBody className="my-2" color="warning">
+                            <img className='rounded'
+                                alt="Origin"
+                                src={ChaturmasyaEvent1}
+                                style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                            />    
+                           
                         </CardBody>
                     </Card>
                 </Col>
@@ -51,16 +54,14 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Sangeet Utsava</span>
+                                <span style={{textAlign:'center'}}> Chaturmasya @ Ranebennuru</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid02o8sZ6uwXV6v8tEcxfjjeZjC6pCieyon86WbSsehD4gtXbTVvPKTb7zJzEQdCVjivl&show_text=false&width=500" 
-                            width="350px" height="200px" style={{border:0,overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>          
-                            
-                            <CardText style={{paddingTop:5}}>
-                                On the occasion of 21st Charturmasa, Sangeeta Utsava is been conducted. 
-                                Bhakti pradana songs will be sung by Shiraksha Mundagod 
-                            </CardText>
+                            <img className='rounded'
+                                alt="Origin"
+                                src={ChaturmasyaEvent2}
+                                style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                            /> 
                         </CardBody>
                     </Card>
                 </Col>
@@ -68,16 +69,14 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Sangeet Utsava</span>
+                                <span style={{textAlign:'center'}}> Chaturmasya @ Ranebennuru</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid0DGBaUuX3i6m2bxJMVMhJGwekozw6Fm9tHZTeVAj9cVpcXPTeooTNxYVJZmTZXUBZl&show_text=false&width=500" 
-                            width="350px" height="200px" style={{border:0,overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>        
-                            
-                            <CardText style={{paddingTop:5}}>
-                                On the occasion of 21st Charturmasa, Sangeeta Utsava is been conducted. 
-                                Bhakti pradana songs will be sung by Sameer Ghambir
-                            </CardText>
+                            <img className='rounded'
+                                    alt="Origin"
+                                    src={ChaturmasyaEvent3}
+                                    style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                                /> 
                         </CardBody>
                     </Card>
                 </Col>
@@ -85,15 +84,14 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Anugraha Sandesha</span>
+                                <span style={{textAlign:'center'}}> Spritual Journey</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid0zb67MXVsRW3yy3erTJ2HiM2V4xcomMSBcrSmXkxpvDoZtUzbeDmae16M6YiEmu96l&show_text=false&width=500" 
-                            width="350px" height="200px" style={{border:0, overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>         
-                            <CardText style={{paddingTop:5}}>
-                                On the occasion of 21st Charturmasa, augraha sandesha from 
-                                Shree Raghu Vijaya Teerth Swamiji on Shree Maha Bharat Tatparya Nirnaya 
-                            </CardText>
+                            <img className='rounded'
+                                alt="Origin"
+                                src={ChaturmasyaEvent4}
+                                style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                            />    
                         </CardBody>
                     </Card>
                 </Col>
@@ -101,15 +99,14 @@ function News(){
                     <Card className="my-2" color="warning" outline>
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Chaturmasa Sankalpa</span>
+                                <span style={{textAlign:'center'}}> Worskshop on Sandyavandana</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid0ayp5kUdbXV446aLhuyABqSzSwRCpcP8otPWdmxCmxrwQ2nfnJWVwZ1mFt8tAPEE1l&show_text=false&width=500" 
-                            width="350px" height="250px" style={{border:0, overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>       
-                        
-                            <CardText style={{paddingTop:5}}>
-                               21st Chaturmasa Invitation 
-                            </CardText>
+                            <img className='rounded'
+                                alt="Origin"
+                                src={ChaturmasyaEvent5}
+                                style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                            />    
                         </CardBody>
                     </Card>
                 </Col>
@@ -120,12 +117,11 @@ function News(){
                                 <span style={{textAlign:'center'}}> Mahasamaradhane</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriraghuvijayateertharu%2Fposts%2Fpfbid01QpD7KDYYu6PKYrAx1EztgyC8odUuacBnVrZnTQ3122qjYgRTCHCSen49L52QLxVl&show_text=false&width=500" 
-                            width="350px" height="225px" style={{border:0, overflow:"hidden"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>          
-                            
-                            <CardText style={{paddingTop:5}}>
-                               Shree 1008 Shree Raghupriya Teertha swamiji's 15th Mahasamaradhane invite.
-                            </CardText>
+                            <img className='rounded'
+                                alt="Origin"
+                                src={ChaturmasyaEvent6}
+                                style={{height:'auto', width:'350px', border:0,overflow:"hidden"}}
+                            /> 
                         </CardBody>
                     </Card>
                 </Col>

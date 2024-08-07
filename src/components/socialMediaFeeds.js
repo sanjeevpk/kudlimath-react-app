@@ -44,7 +44,7 @@ function SocialMediaFeeds(){
                                 <span style={{textAlign:'center'}}> Youtube Videos</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
-                            <iframe width="350" height="300" src="https://www.youtube.com/embed/videoseries?list=PLJifZWnEmXt5dOAydrQm8CdQ62RgX2Yyd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="350" height="300" src="https://www.youtube-nocookie.com/embed/videoseries?si=0mgnmvYkNrVmCBQE&amp;list=PLJifZWnEmXt5pRPL4zD4-iJDZ3Cz-YAZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </CardBody>
                     </Card>
                 </Col>
