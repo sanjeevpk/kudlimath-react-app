@@ -84,7 +84,7 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Spritual Journey</span>
+                                <span style={{textAlign:'center'}}> Chaturmasya @ Ranebennuru</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
@@ -99,7 +99,7 @@ function News(){
                     <Card className="my-2" color="warning" outline>
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Worskshop on Sandyavandana</span>
+                                <span style={{textAlign:'center'}}> Spritual Journey</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
@@ -114,7 +114,7 @@ function News(){
                     <Card className="my-2" color="warning" outline> 
                         <CardHeader style={{fontWeight:'bold'}}>
                                 <NewspaperIcon style={{textAlign:'left'}}/>
-                                <span style={{textAlign:'center'}}> Mahasamaradhane</span>
+                                <span style={{textAlign:'center'}}> Worskshop on Sandyavandana</span>
                             </CardHeader> 
                         <CardBody className="my-2" color="warning">      
                             <img className='rounded'
