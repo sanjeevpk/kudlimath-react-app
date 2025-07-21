@@ -24,6 +24,8 @@ import CreateNews from './components/admin/createNews';
 import PrivacyPolicy from './components/privacyPolicy';
 import TermsAndConditions from './components/termsAndConditions';
 import Chaturmasa from './components/chaturmasa';
+import RegisterUsers from './components/registerUsers';
+import RegistrationSuccess from './components/registrationSuccess';
 
 function App(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +55,8 @@ function App(args) {
           <Route path="/terms-condtions" Component={TermsAndConditions}></Route>
           <Route path="/chaturmasya" Component={Chaturmasa} exact></Route>
           <Route path="/admin/news" Component={CreateNews} exact></Route>
+          <Route path="/register" Component={RegisterUsers} exact></Route>
+          <Route path="/registration-result" Component={RegistrationSuccess} exact></Route>
           <Route path="*" Component={PageNotFound} excact></Route>
           
         </Routes>

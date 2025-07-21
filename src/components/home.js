@@ -33,8 +33,8 @@ function Home(){
                 <Col sm="1"></Col>
                 <Col sm="10">
                     <marquee direction="left" height="50px" style={{color:'#fe6032'}}>
-                        <a href='#/chaturmasya'>22nd Chaturmasya of Shree Shree 1008 Shree RaghuVijaya Teertha Swamiji 
-                            at Ranebennuru from 30th July to 18th Sep 2024
+                        <a href='#/chaturmasya'>23rd Chaturmasya of Shree Shree 1008 Shree RaghuVijaya Teertha Swamiji 
+                            at Belagaum from 20th July to 07th Sep 2025
                         </a>
                     </marquee>
                 </Col>

@@ -14,46 +14,30 @@ import 'react-toastify/dist/ReactToastify.css';
 import RECAPTCHA from 'react-google-recaptcha';
 import { isUnitless } from "@mui/material/styles/cssUtils";
 
-const CreateDonation = () => {
+const RegisterUsers = () => {
     const recaptcha = useRef();
 
-    // const [donateDetailsPage, setDonateDetailsPage] = useContext(DonatePageContext);
-
     useEffect(() => {
-        document.title = "Donate";
+        document.title = "Register";
     }, []);
     
     const navigate = useNavigate();
-    // const id = 5;
-    // const name = 'Sanjeev';
-    // const email = 'a@b.com'; 
-    // const mobile = '9087654321';
-    // const amount = '10' 
-    // const atomTokenId = '15000000432303';
-    // const merchantId = '317157';  
-    // const returnUrl = 'http://localhost:8080/donation-response'
-
-    // function gotToNextPage(){
-    //     navigate("/checkout", {state : {
-    //         name: name,
-    //         email: email, 
-    //         mobile: mobile, 
-    //         amount: amount,
-    //         atomTokenId: atomTokenId,
-    //         merchantId: merchantId,
-    //         returnUrl: returnUrl
-            
-    //     }}) 
-    // }
-
-    const [donation, setDonation] = useState({}); 
+    
+    const [register, setRegister] = useState({}); 
     const [error, setError] = useState("");
+    const [email, setEmail] = useState('');
+    const [mobile, setMobile] = useState('');
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [message, setMessage] = useState('');
+    const [isError, setIsError] = useState(false);
     
     const [formValue, setformValue] = React.useState({
-        name: '',
+        firstName: '',
+        lastName:'',
         mobile: '',
         email: '',
-        amount: ''
+        address: ''
       });
 
     const handleChange = (e) => {
@@ -62,51 +46,49 @@ const CreateDonation = () => {
             [e.target.name]: e.target.value
           });
     }
-
-    const notify = () => toast("Wow so easy !");
-    
+   
     const handleSubmit = async(e) => {
-        // store the states in the form data
-        // const donationFormData = new FormData();
-        // donationFormData.append("name", formValue.name)
-        // donationFormData.append("email", formValue.email)
-        // donationFormData.append("mobile", formValue.mobile)
-        // donationFormData.append("amount", formValue.amount)
         e.preventDefault();    
+        setMessage(''); // Clear previous messages
+        setIsError(false); // Reset error state
 
-        const donation = {
-            name: formValue.name,
+        const register = {
+            firstName: formValue.firstName,
+            lastName: formValue.lastName,
             email: formValue.email, 
             mobile: formValue.mobile, 
-            amount: formValue.amount
+            address: formValue.address
         };
 
-        console.log("donation = "+donation.email);
-
-        if (!donation.mobile.match(/^(\d{10})$/)) {
+        
+        if (!register.mobile.match(/^(\d{10})$/)) {
             setError('Please enter a valid mobile number.');
             return;
         }
 
-        if (!/\S+@\S+\.\S+/.test(donation.email)) {
+        if (!/\S+@\S+\.\S+/.test(register.email)) {
             setError("Invalid email address");
             return;
         }
 
-        if (isNaN(donation.amount) || donation.amount <= 1) {
-            setError('Please enter a valid amount which has to be greater than 1.');
-            return;
-        }
+        // if (isNaN(register.address) || register.address <= 1) {
+        //     setError('Please enter a valid address.');
+        //     return;
+        // }
         
         const captchaValue = recaptcha.current.getValue();
         if (!captchaValue) {
             setError('Please verify the reCAPTCHA!');
             return;
         }
+        console.log("Registration = "+register.firstName + " "+register.lastName);
+        console.log("Registration = "+register.email);
+        console.log("Registration = "+register.mobile);
+        console.log("Registration = "+register.address);
 
         try {
           // make axios post request
-          toast.info("Initializing payment, please do not click back button!", {
+          toast.info("Initializing registration, please do not click back button!", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -131,14 +113,14 @@ const CreateDonation = () => {
 
             const response = await axios({
                 method: "post",
-                url: "/api/v1/donation",
-                data: donation
+                url: "/api/v1/users",
+                data: register
                 // headers: { "Content-Type": "multipart/form-data" },
               }).then(res=>{
                     console.log(res);
                     console.log(res.data);
                     setTimeout(() => {
-                        toast.success("Successfuly initiated donation", {
+                        toast.success("Successfuly initiated regisration", {
                           position: "top-right",
                           autoClose: 5000,
                           hideProgressBar: false,
@@ -149,18 +131,15 @@ const CreateDonation = () => {
                           theme: "light",
                         });
                       }, 1);
-                    navigate("/checkout", {state : {
-                        name: res.data.name,
+                    navigate("/registration-result", {state : {
+                        firstName: res.data.firstName,
+                        lastName: res.data.lastName,
                         email: res.data.email, 
                         mobile: res.data.mobile, 
-                        amount: res.data.amount,
-                        atomTokenId: res.data.atomTokenId,
-                        merchantId: res.data.merchantId,
-                        merchantTnxId: res.data.merchantTnxId,
-                        returnUrl: res.data.returnUrl
-                        
+                        address: res.data.address                        
                     }}) 
                 })
+               
 
             // alert('Form submission successful!')
             // } else {
@@ -170,17 +149,35 @@ const CreateDonation = () => {
         } catch(error) {
           console.log(error);
           setError("");
-          toast.error("Something went wrong, please try again!", {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: true,
-            theme: "dark",
-          });
-        
+          if (error.response.status === 409) {
+            toast.error("User with same email and mobile already exists!, please try again!", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: true,
+                theme: "dark",
+            });
+          } else {
+                toast.error("Something went wrong, please try again!", {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: true,
+                    theme: "dark",
+                });
+          }
+          if (error.response.status === 409) {
+            // This is our specific 409 Conflict error
+            setIsError(true);
+            // Assuming the backend sends a JSON with a 'message' field
+            setMessage(error.response.data.message || 'A user with this email and mobile already exists.');
+          }
         }
       }
 
@@ -202,7 +199,7 @@ const CreateDonation = () => {
             <Navigation/>
             <Heading/>
             <hr/>
-            <h2 style={{textAlign:'center'}}>Donations </h2>
+            
             <Row>
                 <Col sm="4"/>{/* <Button type="" className="btn btn-warning" onClick={gotToNextPage}>Checkout</Button></Col> */}
                 <Col sm="4">
@@ -213,24 +210,38 @@ const CreateDonation = () => {
                     > 
                         <CardHeader style={{fontWeight:'bold'}}>
                             <CardGiftcardIcon style={{textAlign:'left'}}/>
-                            <span style={{textAlign:'center'}}> Shree Aarya Akshobhya Teertha Trust</span>
+                            <span style={{textAlign:'center'}}> Register Users</span>
                         </CardHeader>
                         <CardBody className="my-2" color="warning">                  
                             <Form onSubmit={handleSubmit}>
                                 <FormGroup>
                                     {error && <p style={{color: 'red'}}>{error}</p>}
-                                    <Label>Name *</Label>
+                                    <Label>First Name *</Label>
                                     <Input 
-                                        id="name"
+                                        id="firstName"
                                         type="text" 
-                                        placeholder="Enter Name"
-                                        name="name" 
+                                        placeholder="Enter first Name"
+                                        name="firstName" 
                                         className="form-control" 
-                                        value={formValue.name}
+                                        value={formValue.firstName}
                                         onChange={handleChange}
                                         required
                                         // onChange={(e) => {
-                                        //     setDonation({...donation, name: e.target.value})
+                                        //     setDonation({...donation, firstName: e.target.value})
+                                        // }}
+                                    />
+                                    <Label>Last Name *</Label>
+                                    <Input 
+                                        id="lastName"
+                                        type="text" 
+                                        placeholder="Enter last Name"
+                                        name="lastName" 
+                                        className="form-control" 
+                                        value={formValue.lastName}
+                                        onChange={handleChange}
+                                        required
+                                        // onChange={(e) => {
+                                        //     setDonation({...donation, lastName: e.target.value})
                                         // }}
                                     />
                                     <Label style={{marginTop:'10px', paddingTop:'5px'}}>Mobile *</Label>
@@ -261,20 +272,18 @@ const CreateDonation = () => {
                                         //     setDonation({...donation, email: e.target.value})
                                         // }}
                                     />
-                                    <Label style={{marginTop:'10px', paddingTop:'5px'}}>Amount *</Label>
-                                    <Input 
-                                        id="amount"
-                                        type="text" 
-                                        placeholder="Enter Amount"
-                                        name="amount" 
-                                        className="form-control" 
-                                        value={formValue.amount}
-                                        onChange={handleChange}
-                                        required
-                                        // onChange={(e) => {
-                                        //     setDonation({...donation, amount: e.target.value})
-                                        // }}
+                                    <Label style={{marginTop:'10px', paddingTop:'5px'}}>Address *</Label>
+                                    <textarea
+                                            id="address"
+                                            type="text" 
+                                            placeholder="Enter Address"
+                                            name="address" 
+                                            className="form-control" 
+                                            value={formValue.address}
+                                            onChange={handleChange}
+                                            required
                                     />
+                                    
                                     <RECAPTCHA sitekey="6LdjDi4rAAAAAK9W5bKYdmNxvZwzaumvU1ZIZ_Db" ref={recaptcha}
                                     id="recaptcha"
                                     type="checkbox" 
@@ -291,24 +300,15 @@ const CreateDonation = () => {
                                     <ul>
                                         <li>
                                             <small>
-                                                Donations once made are final and are nonrefundable or noncancellable for any reason
+                                                Register now to receive the latest updates on spiritual discourses, events, and activities directly from Shree Kudli Aarya Akshobhya Teerth Math. 
                                             </small>
                                         </li>
                                         <li>
                                             <small>
-                                                Under no circumstances the payment made successfully towards donation will be returned
+                                                Don't miss out on important announcements and opportunities for spiritual growth!
                                             </small>
                                         </li>
-                                        <li>
-                                            <small>
-                                                Transaction fees if applicable would be borne by cardholder for any payment
-                                            </small>
-                                        </li>
-                                        <li>
-                                            <small>
-                                                Transaction fee charges would not be refunded/reversed under any circumstances for any refund/reversal/chargeback and any other reasons (If applicable).
-                                            </small>
-                                        </li>
+                                        
                                     </ul>
                                 </FormGroup>
                             </Form>
@@ -321,4 +321,4 @@ const CreateDonation = () => {
     )
 }
 
-export default CreateDonation;
+export default RegisterUsers;
